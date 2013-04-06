@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# Quicksilver Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [Quicksilver](http://qsapp.com/index.php), a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include quicksilver
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
