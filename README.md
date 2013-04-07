@@ -1,4 +1,4 @@
-# Quicksilver Puppet Module for Boxen
+# Quicksilver Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-quicksilver.png)](https://travis-ci.org/boxen/puppet-quicksilver)
 
 Install [Quicksilver](http://qsapp.com/index.php), a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought.
 
