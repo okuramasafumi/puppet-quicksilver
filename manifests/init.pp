@@ -4,8 +4,8 @@
 #
 #  include quicksilver
 class quicksilver {
-  package { 'Quicksilver':
+  package { 'Quicksilver-1.1.3':
     provider => 'appdmg',
-    source   => 'http://cdn.qsapp.com/com.blacktree.Quicksilver__16388.dmg',
+    source   => 'https://dl.dropboxusercontent.com/s/1k73bxr6n6364en/Quicksilver-1.1.3.dmg',
   }
 }
