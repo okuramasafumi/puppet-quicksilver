@@ -3,9 +3,11 @@
 # Examples
 #
 #  include quicksilver
-class quicksilver {
-  package { 'Quicksilver-1.1.3':
+class quicksilver($version='1.1.3') {
+
+  package { "Quicksilver-${version}":
     provider => 'appdmg',
-    source   => 'https://dl.dropboxusercontent.com/s/1k73bxr6n6364en/Quicksilver-1.1.3.dmg',
+    source   => "https://dl.dropboxusercontent.com/s/1k73bxr6n6364en/Quicksilver-${version}.dmg",
   }
+
 }
