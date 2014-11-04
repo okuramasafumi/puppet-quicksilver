@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe 'quicksilver' do
 
-  version = '1.1.3'
+  version = '1.2.0'
 
   it { should contain_class('quicksilver') }
   it { should contain_package("Quicksilver-#{version}").with_provider('appdmg') }
-  it { should contain_package("Quicksilver-#{version}").with_source("https://dl.dropboxusercontent.com/s/1k73bxr6n6364en/Quicksilver-#{version}.dmg") }
+  it { should contain_package("Quicksilver-#{version}").with_source("http://github.qsapp.com/downloads/Quicksilver%20#{version}.dmg") }
 
 end
