@@ -3,7 +3,7 @@
 # Examples
 #
 #  include quicksilver
-class quicksilver($version='1.2.0') {
+class quicksilver($version='1.2.1') {
 
   package { "Quicksilver-${version}":
     provider => 'appdmg',

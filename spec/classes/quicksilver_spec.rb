@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'quicksilver' do
 
-  version = '1.2.0'
+  version = '1.2.1'
 
   it { should contain_class('quicksilver') }
   it { should contain_package("Quicksilver-#{version}").with_provider('appdmg') }
