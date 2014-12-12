@@ -6,7 +6,7 @@
 class quicksilver($version='1.2.1') {
 
   package { "Quicksilver-${version}":
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => "http://github.qsapp.com/downloads/Quicksilver%20${version}.dmg",
   }
 
